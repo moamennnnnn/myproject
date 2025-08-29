@@ -15,4 +15,16 @@ elif number <0 :
 else : 
     print("Number is Zero")        
 
+<<<<<<< HEAD
 print("Welcome to Python Programming")
+=======
+age = int(input("Enter your Age:"))
+if age >0 and age <= 12 :
+    print("You are a Child")
+elif age >12 and age <=19 :
+    print("You are a Teenager")    
+elif age >19 and age <=60 :    
+    print("You are an Adult")
+else :
+    print("You are a Senior Citizen")    
+>>>>>>> moamen
